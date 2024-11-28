@@ -1,4 +1,12 @@
-Pasos para iniciar e instalar dependecias de node (se debe instalar node previamente): 
+Descripción de la API:
+Esta API permite gestionar equipos de fútbol y presidentes de clubes. Con ella, puedes realizar operaciones CRUD (crear, leer, actualizar, eliminar) sobre dos modelos principales: equipos y presidentes .
+
+Funcionalidades:
+Equipos : Permite registrar y gestionar información sobre equipos de fútbol, ​​incluyendo su nombre, categoría, país, estadio y estado.
+Presidentes : Gestiona los presidentes de los equipos, permitiéndole almacenar su nombre y apellido.
+La API utiliza Node.js , Express.js , Sequelize y MySQL para proporcionar un acceso rapido y sencillo a los datos de los equipos y presidentes en una base de datos MySQL.
+
+Pasos para iniciar e instalar dependecias de Node.js (se debe instalar Node.js previamente): 
 npm init -y
 npm install express cors sequelize mysql2
 
